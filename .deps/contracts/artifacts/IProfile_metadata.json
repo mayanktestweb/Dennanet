@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "OwnerUpdated",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_newOwner",
+						"type": "address"
+					}
+				],
+				"name": "updateProfileOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".deps/contracts/IProfile.sol": "IProfile"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".deps/contracts/IProfile.sol": {
+			"keccak256": "0xf437947fcbe5df07eafefd4a242d5797cb9310d34b3d857fc3586832d7a94d27",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0ed1734e2ddf00a470af4a16c8bc862428772f0c08d611ae37dec5e2f5850fad",
+				"dweb:/ipfs/QmUshWbQ3Eu8CW9zVEQx1jT8eym69Rkgb5Qb5RBP7UZ2r2"
+			]
+		}
+	},
+	"version": 1
+}
